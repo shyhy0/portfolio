@@ -808,14 +808,6 @@
     "url": null
   },
   {
-    "organization": "군정홍보 화면보호기",
-    "project": "군정홍보용 PC화면보호기 제작용역",
-    "period": "2012",
-    "category": "기타",
-    "company": "지오넷",
-    "url": null
-  },
-  {
     "organization": "당진시",
     "project": "당진시 모바일홈페이지 및 동주민자치센터 홈페이지 구축",
     "period": "2011",
@@ -868,15 +860,15 @@
     "project": "충주 폴리텍IV대학 홈페이지 구축",
     "period": "2009",
     "category": "대학교",
-    "company": "초기 경력",
-    "url": null
+    "company": "이지소프트",
+    "url": "https://www.kopo.ac.kr/chungju/index.do"
   },
   {
     "organization": "청주시",
     "project": "청주시 문화예술체육관 홈페이지 구축",
     "period": "2008–2009",
     "category": "기타",
-    "company": "초기 경력",
+    "company": "이지소프트",
     "url": null
   },
   {
@@ -884,7 +876,7 @@
     "project": "서울 종로구청 보건소 홈페이지 구축",
     "period": "2008",
     "category": "지자체",
-    "company": "초기 경력",
+    "company": "이지소프트",
     "url": null
   },
   {
@@ -892,7 +884,7 @@
     "project": "서울 중랑구청 보건소 홈페이지 구축",
     "period": "2008",
     "category": "지자체",
-    "company": "초기 경력",
+    "company": "이지소프트",
     "url": null
   },
   {
@@ -900,15 +892,15 @@
     "project": "한국디지털미디어고등학교 홈페이지구축사업",
     "period": "2008",
     "category": "기타",
-    "company": "초기 경력",
-    "url": null
+    "company": "이지소프트",
+    "url": "https://dimigo-h.goeas.kr/dimigo-h/main.do"
   },
   {
     "organization": "충청북도지역혁신협의회",
     "project": "충청북도지역혁신협의회 홈페이지 구축",
     "period": "2008",
     "category": "기타",
-    "company": "초기 경력",
+    "company": "이지소프트",
     "url": null
   },
   {
@@ -916,7 +908,7 @@
     "project": "서울 중랑구청 문화관광 홈페이지 구축",
     "period": "2008",
     "category": "지자체",
-    "company": "초기 경력",
+    "company": "이지소프트",
     "url": null
   }
 ]
