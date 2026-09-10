@@ -101,7 +101,7 @@
     border-bottom: 1px solid var(--border);
     z-index: 10;
   }
-  .controls-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+  .controls-row { display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
   #search {
     font-family: inherit;
     font-size: 1.5rem;
@@ -115,7 +115,6 @@
   }
   #search:focus-visible { outline: 2px solid var(--primary-50); outline-offset: 1px; border-color: var(--primary-50); }
   #search::placeholder { color: var(--text-subtle); }
-  .count-note { font-size: 1.4rem; color: var(--text-subtle); margin-left: auto; }
 
   .chip-row { display: flex; gap: 8px; flex-wrap: wrap; }
   .chip {
@@ -157,7 +156,6 @@
   td.col-org { font-weight: 700; color: var(--text-bolder); white-space: nowrap; }
   td.col-title { color: var(--text-basic); }
   td.col-period { font-size: 1.4rem; color: var(--text-subtle); white-space: nowrap; }
-  td.col-era { font-size: 1.4rem; color: var(--text-subtle); white-space: nowrap; }
   .proj-tag {
     display: inline-block;
     font-size: 1.2rem;
@@ -212,25 +210,23 @@
         <button type="button" class="chip" data-cat="박물관" aria-pressed="false">박물관</button>
         <button type="button" class="chip" data-cat="기타" aria-pressed="false">기타</button>
       </div>
-      <div class="count-note" id="count-note" role="status" aria-live="polite">불러오는 중...</div>
     </div>
   </div>
 
   <div class="table-scroll">
   <table id="proj-table">
-    <caption class="sr-only">기관명, 프로젝트명, 유형, 기간, 소속, 사이트 링크로 구성된 프로젝트 목록입니다. 열 머리글을 클릭하거나 Enter 키를 누르면 해당 기준으로 정렬됩니다.</caption>
+    <caption class="sr-only">유형, 기관명, 프로젝트명, 기간, 사이트 링크로 구성된 프로젝트 목록입니다. 열 머리글을 클릭하거나 Enter 키를 누르면 해당 기준으로 정렬됩니다.</caption>
     <thead>
       <tr>
+        <th scope="col" data-key="category" tabindex="0" role="button" aria-sort="none">유형 <span class="arrow" aria-hidden="true"></span></th>
         <th scope="col" data-key="organization" tabindex="0" role="button" aria-sort="none">기관명 <span class="arrow" aria-hidden="true"></span></th>
         <th scope="col" data-key="project" tabindex="0" role="button" aria-sort="none">프로젝트명 <span class="arrow" aria-hidden="true"></span></th>
-        <th scope="col" data-key="category" tabindex="0" role="button" aria-sort="none">유형 <span class="arrow" aria-hidden="true"></span></th>
         <th scope="col" data-key="_date" tabindex="0" role="button" aria-sort="descending">기간 <span class="arrow" aria-hidden="true">▼</span></th>
-        <th scope="col" data-key="company" tabindex="0" role="button" aria-sort="none">소속 <span class="arrow" aria-hidden="true"></span></th>
         <th scope="col">사이트</th>
       </tr>
     </thead>
     <tbody id="table-body">
-      <tr><td colspan="6" class="loading-note">데이터를 불러오는 중입니다...</td></tr>
+      <tr><td colspan="5" class="loading-note">데이터를 불러오는 중입니다...</td></tr>
     </tbody>
   </table>
   </div>

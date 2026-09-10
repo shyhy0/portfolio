@@ -28,21 +28,18 @@ function render() {
     return state.sortDir === 'asc' ? cmp : -cmp;
   });
 
-  document.getElementById('count-note').textContent = filtered.length + '건 표시 중 (전체 ' + ITEMS.length + '건)';
-
   const body = document.getElementById('table-body');
   if (filtered.length === 0) {
-    body.innerHTML = '<tr><td colspan="6" class="empty-note">해당 조건에 맞는 프로젝트가 없습니다.</td></tr>';
+    body.innerHTML = '<tr><td colspan="5" class="empty-note">해당 조건에 맞는 프로젝트가 없습니다.</td></tr>';
     return;
   }
 
   body.innerHTML = filtered.map(it => `
     <tr>
+      <td><span class="proj-tag">${escapeHtml(it.category)}</span></td>
       <td class="col-org">${escapeHtml(it.organization)}</td>
       <td class="col-title">${escapeHtml(it.project)}</td>
-      <td><span class="proj-tag">${escapeHtml(it.category)}</span></td>
       <td class="col-period">${escapeHtml(it.period)}</td>
-      <td class="col-era">${escapeHtml(it.company)}</td>
       <td>${it.url ? `<a class="visit" href="${it.url}" target="_blank" rel="noopener" aria-label="${escapeHtml(it.organization)} 홈페이지 방문 (새 창 열림)">사이트 방문</a>` : `<span class="visit muted">-</span>`}</td>
     </tr>
   `).join('');
@@ -101,6 +98,6 @@ fetch('./data.json')
   })
   .catch(err => {
     document.getElementById('table-body').innerHTML =
-      '<tr><td colspan="6" class="empty-note">data.json을 불러오지 못했습니다. index.html·app.js·data.json이 같은 폴더에 있는지, http(s)로 서빙되고 있는지 확인해주세요 (file:// 로 더블클릭해서 열면 fetch가 차단됩니다. GitHub Pages에 올리면 정상 동작합니다).</td></tr>';
+      '<tr><td colspan="5" class="empty-note">data.json을 불러오지 못했습니다. index.html·app.js·data.json이 같은 폴더에 있는지, http(s)로 서빙되고 있는지 확인해주세요 (file:// 로 더블클릭해서 열면 fetch가 차단됩니다. GitHub Pages에 올리면 정상 동작합니다).</td></tr>';
     console.error(err);
   });
