@@ -2,7 +2,7 @@
   {
     "organization": "제주대학교병원",
     "project": "제주대학교병원 홈페이지 개편 용역",
-    "period": "2026.04 – 2026.06",
+    "period": "2026",
     "category": "병원",
     "company": "지오넷",
     "url": "https://www.jejunuh.co.kr/"
@@ -10,7 +10,7 @@
   {
     "organization": "서천군",
     "project": "서천군 통합 홈페이지 전면개편 용역",
-    "period": "2026.02 – 2026.04",
+    "period": "2026",
     "category": "지자체",
     "company": "지오넷",
     "url": "https://www.seocheon.go.kr/"
@@ -18,7 +18,7 @@
   {
     "organization": "천안시",
     "project": "천안시 통합 홈페이지 개편 용역",
-    "period": "2025.10 – 2026.01",
+    "period": "2025–2026",
     "category": "지자체",
     "company": "지오넷",
     "url": "https://www.cheonan.go.kr/"
@@ -26,7 +26,7 @@
   {
     "organization": "차세대융합기술연구원",
     "project": "차세대융합기술연구원 대표 홈페이지 신규 개편",
-    "period": "2025.09 – 2025.10",
+    "period": "2025",
     "category": "연구기관",
     "company": "지오넷",
     "url": null
@@ -34,7 +34,7 @@
   {
     "organization": "K-클럽(과학기술인 경력개발 플랫폼)",
     "project": "과학기술인 경력개발 플랫폼(K-클럽) 고도화 사업",
-    "period": "2025.07 – 2025.08",
+    "period": "2025",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -42,7 +42,7 @@
   {
     "organization": "서산시",
     "project": "서산시 데이터 통합 플랫폼 구축용역",
-    "period": "2025.03 – 2025.07",
+    "period": "2025",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -50,7 +50,7 @@
   {
     "organization": "우주항공청",
     "project": "우주항공청 대표 누리집 고도화 사업",
-    "period": "2024.12 – 2025.02",
+    "period": "2024–2025",
     "category": "기타",
     "company": "지오넷",
     "url": "https://www.kasa.go.kr/"
@@ -58,7 +58,7 @@
   {
     "organization": "국립한밭대학교",
     "project": "국립한밭대학교 홈페이지 고도화 사업",
-    "period": "2024.08 – 2024.11",
+    "period": "2024",
     "category": "대학교",
     "company": "지오넷",
     "url": "https://www.hanbat.ac.kr/"
@@ -66,7 +66,7 @@
   {
     "organization": "한국교통대학교",
     "project": "한국교통대학교 통합홈페이지 고도화 구축 용역",
-    "period": "2024.02 – 2024.03",
+    "period": "2024",
     "category": "대학교",
     "company": "지오넷",
     "url": "https://www.ut.ac.kr/"
@@ -74,7 +74,7 @@
   {
     "organization": "DGIST",
     "project": "DGIST 홈페이지 신규 구축 용역",
-    "period": "2023.10 – 2024.01",
+    "period": "2023–2024",
     "category": "대학교",
     "company": "지오넷",
     "url": "https://www.dgist.ac.kr/"
@@ -82,7 +82,7 @@
   {
     "organization": "K-클럽(과학기술인 경력개발 플랫폼)",
     "project": "과학기술인 경력개발 종합지원 플랫폼 K-클럽 기능 개선 사업",
-    "period": "2023.09",
+    "period": "2023",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -90,7 +90,7 @@
   {
     "organization": "국립등대박물관",
     "project": "국립등대박물관 홈페이지 개편 용역",
-    "period": "2023.06 – 2023.08",
+    "period": "2023",
     "category": "박물관",
     "company": "지오넷",
     "url": null
@@ -98,7 +98,7 @@
   {
     "organization": "논산시",
     "project": "2023년 논산시 디지털 플랫폼 유지보수 용역 (컨소시엄)",
-    "period": "2023.01 – 2023.03",
+    "period": "2023",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -106,7 +106,7 @@
   {
     "organization": "WISET",
     "project": "WISET 홈페이지 재구축 용역 사업",
-    "period": "2022.08 – 2022.11",
+    "period": "2022",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -114,7 +114,7 @@
   {
     "organization": "충남대학교병원",
     "project": "충남대학교병원 웹 역사관 개발 제작 (개원 50주년 기념)",
-    "period": "2022.05 – 2022.06",
+    "period": "2022",
     "category": "병원",
     "company": "지오넷",
     "url": null
@@ -122,7 +122,7 @@
   {
     "organization": "대전광역시 서구",
     "project": "대전광역시 서구 홈페이지 전면 개편 용역",
-    "period": "2022.04 – 2022.06",
+    "period": "2022",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -130,7 +130,7 @@
   {
     "organization": "웅진백제문화 아카이브",
     "project": "웅진백제문화 아카이브 시스템 및 DB구축 사업",
-    "period": "2021.12 – 2022.06",
+    "period": "2021–2022",
     "category": "박물관",
     "company": "지오넷",
     "url": null
@@ -138,7 +138,7 @@
   {
     "organization": "국립나주박물관",
     "project": "국립나주박물관 누리집 전면 개편 용역",
-    "period": "2021.08 – 2022.01",
+    "period": "2021–2022",
     "category": "박물관",
     "company": "지오넷",
     "url": null
@@ -146,7 +146,7 @@
   {
     "organization": "윤봉길의사기념관",
     "project": "윤봉길의사기념관 홈페이지 구축",
-    "period": "2021.08 – 2021.11",
+    "period": "2021",
     "category": "박물관",
     "company": "지오넷",
     "url": null
@@ -154,7 +154,7 @@
   {
     "organization": "온시민(통합건강관리시스템)",
     "project": "온시민 통합건강관리시스템 구축사업",
-    "period": "2021.08 – 2021.10",
+    "period": "2021",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -162,7 +162,7 @@
   {
     "organization": "논산시",
     "project": "논산시 빅데이터 기반 공공스마트시스템 구축 용역",
-    "period": "2021.08 – 2021.10",
+    "period": "2021",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -170,7 +170,7 @@
   {
     "organization": "천안시",
     "project": "천안시 빅데이터 플랫폼 구축사업",
-    "period": "2021.07 – 2022.02",
+    "period": "2021–2022",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -178,7 +178,7 @@
   {
     "organization": "노원어르신행복주식회사",
     "project": "노원어르신행복주식회사 홈페이지 구축 용역",
-    "period": "2021.07 – 2021.10",
+    "period": "2021",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -186,7 +186,7 @@
   {
     "organization": "아산시",
     "project": "아산시 통합 빅데이터 플랫폼 구축 용역",
-    "period": "2021.07 – 2021.12",
+    "period": "2021",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -194,7 +194,7 @@
   {
     "organization": "국립춘천박물관",
     "project": "국립춘천박물관 누리집 개편 용역",
-    "period": "2021.06 – 2021.12",
+    "period": "2021",
     "category": "박물관",
     "company": "지오넷",
     "url": null
@@ -202,7 +202,7 @@
   {
     "organization": "건양대학교병원",
     "project": "건양대학교병원 홈페이지 구축 사업",
-    "period": "2021.03 – 2022.01",
+    "period": "2021–2022",
     "category": "병원",
     "company": "지오넷",
     "url": null
@@ -210,7 +210,7 @@
   {
     "organization": "UST",
     "project": "UST 대표 홈페이지 구축 사업",
-    "period": "2021.03 – 2021.11",
+    "period": "2021",
     "category": "대학교",
     "company": "지오넷",
     "url": null
@@ -218,7 +218,7 @@
   {
     "organization": "유성구",
     "project": "유성구 홈페이지 전면개편사업",
-    "period": "2020.10 – 2021.06",
+    "period": "2020–2021",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -226,7 +226,7 @@
   {
     "organization": "KED",
     "project": "KED 빅데이터 상황실 구축 용역",
-    "period": "2020.10 – 2021.04",
+    "period": "2020–2021",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -234,7 +234,7 @@
   {
     "organization": "스마트 직원안내시스템",
     "project": "스마트 직원안내시스템 구축 및 3D청사안내 고도화 용역",
-    "period": "2020.09 – 2020.11",
+    "period": "2020",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -242,7 +242,7 @@
   {
     "organization": "중구",
     "project": "중구 홈페이지 전면 재구축 사업",
-    "period": "2020.06 – 2020.12",
+    "period": "2020",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -250,7 +250,7 @@
   {
     "organization": "공연자료 아카이브",
     "project": "공연자료 디지털 아카이브시스템 구축 용역",
-    "period": "2020.04 – 2020.10",
+    "period": "2020",
     "category": "박물관",
     "company": "지오넷",
     "url": null
@@ -258,7 +258,7 @@
   {
     "organization": "한국교통대학교",
     "project": "한국교통대학교 홈페이지 개선 용역",
-    "period": "2020.04 – 2020.05",
+    "period": "2020",
     "category": "대학교",
     "company": "지오넷",
     "url": "https://www.ut.ac.kr/"
@@ -266,7 +266,7 @@
   {
     "organization": "논산시",
     "project": "논산시 빅데이터 통합 플랫폼 구축 사업",
-    "period": "2020.03 – 2020.10",
+    "period": "2020",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -274,7 +274,7 @@
   {
     "organization": "독서왕김득신문학관",
     "project": "독서왕김득신문학관 홈페이지 구축사업",
-    "period": "2020.02 – 2020.05",
+    "period": "2020",
     "category": "박물관",
     "company": "지오넷",
     "url": null
@@ -282,7 +282,7 @@
   {
     "organization": "금산군(금산인삼)",
     "project": "금산인삼 수출플랫폼 구축 용역",
-    "period": "2019.12 – 2020.12",
+    "period": "2019–2020",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -290,7 +290,7 @@
   {
     "organization": "개교 50주년 기념사업",
     "project": "개교 50주년 기념사업 공모전 홈페이지 구축",
-    "period": "2019.11 – 2019.12",
+    "period": "2019",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -298,7 +298,7 @@
   {
     "organization": "공주시",
     "project": "공주시 홈페이지 통합 개편 사업 용역",
-    "period": "2019.08 – 2020.04",
+    "period": "2019–2020",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -306,7 +306,7 @@
   {
     "organization": "한밭대학교",
     "project": "한밭대학교 홈페이지 통합 구축 사업",
-    "period": "2019.06 – 2019.12",
+    "period": "2019",
     "category": "대학교",
     "company": "지오넷",
     "url": "https://www.hanbat.ac.kr/"
@@ -314,7 +314,7 @@
   {
     "organization": "기획마루",
     "project": "기획마루 시스템 개선 및 기능 고도화 사업",
-    "period": "2019.06 – 2019.09",
+    "period": "2019",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -322,7 +322,7 @@
   {
     "organization": "한국조세재정연구원",
     "project": "한국조세재정연구원 웹사이트 통합 구축 사업",
-    "period": "2018.12 – 2019.12",
+    "period": "2018–2019",
     "category": "연구기관",
     "company": "지오넷",
     "url": "https://www.kipf.re.kr/"
@@ -330,7 +330,7 @@
   {
     "organization": "세종시",
     "project": "세종시 홈페이지 개편 및 기능개선 사업",
-    "period": "2018.11 – 2019.06",
+    "period": "2018–2019",
     "category": "지자체",
     "company": "지오넷",
     "url": "https://www.sejong.go.kr/"
@@ -338,7 +338,7 @@
   {
     "organization": "GIST",
     "project": "GIST 통합 홈페이지 구축사업",
-    "period": "2018.09 – 2018.12",
+    "period": "2018",
     "category": "대학교",
     "company": "지오넷",
     "url": "https://www.gist.ac.kr/"
@@ -346,7 +346,7 @@
   {
     "organization": "국립공주박물관",
     "project": "국립공주박물관 누리집 개선",
-    "period": "2018.08 – 2018.11",
+    "period": "2018",
     "category": "박물관",
     "company": "지오넷",
     "url": null
@@ -354,7 +354,7 @@
   {
     "organization": "고성군",
     "project": "고성군 관광 홈페이지 개편 및 웹서비스 통합구축 용역",
-    "period": "2018.07 – 2019.02",
+    "period": "2018–2019",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -362,7 +362,7 @@
   {
     "organization": "상지대학교",
     "project": "상지대학교 홈페이지 개발 용역",
-    "period": "2018.05 – 2019.03",
+    "period": "2018–2019",
     "category": "대학교",
     "company": "지오넷",
     "url": null
@@ -370,7 +370,7 @@
   {
     "organization": "사진기록물 아카이브",
     "project": "사진기록물 관리 아카이브 시스템 구축 사업",
-    "period": "2018.05 – 2018.12",
+    "period": "2018",
     "category": "박물관",
     "company": "지오넷",
     "url": null
@@ -378,7 +378,7 @@
   {
     "organization": "예산군",
     "project": "예산군 신청사 안내시스템 구축 용역",
-    "period": "2018.02 – 2018.04",
+    "period": "2018",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -386,7 +386,7 @@
   {
     "organization": "경북도청",
     "project": "경북도청 U-BIKE 운영시스템 및 홈페이지 개발",
-    "period": "2017.05 – 2017.06",
+    "period": "2017",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -394,7 +394,7 @@
   {
     "organization": "공주시의회",
     "project": "공주시의회 구 비전자 회의록 전자화 사업 추진 용역",
-    "period": "2017.05 – 2017.07",
+    "period": "2017",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -402,7 +402,7 @@
   {
     "organization": "프라임사업단",
     "project": "프라임사업단 및 학부 홈페이지 구축 용역",
-    "period": "2017.02 – 2018.02",
+    "period": "2017–2018",
     "category": "대학교",
     "company": "지오넷",
     "url": null
@@ -410,7 +410,7 @@
   {
     "organization": "세명대학교",
     "project": "세명대학교 모바일 홈페이지 구축사업",
-    "period": "2017.01 – 2017.07",
+    "period": "2017",
     "category": "대학교",
     "company": "지오넷",
     "url": null
@@ -418,7 +418,7 @@
   {
     "organization": "울진군",
     "project": "ICT 기반 울진군 통합 행정포털 구축",
-    "period": "2016.12 – 2017.11",
+    "period": "2016–2017",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -426,7 +426,7 @@
   {
     "organization": "태안군",
     "project": "태안군 스마트 홈페이지 구축",
-    "period": "2016.08 – 2016.12",
+    "period": "2016",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -434,7 +434,7 @@
   {
     "organization": "군정 사진·영상 관리시스템",
     "project": "군정 사진·영상 통합전자관리시스템 구축",
-    "period": "2016.08 – 2017.01",
+    "period": "2016–2017",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -442,7 +442,7 @@
   {
     "organization": "한국교통대학교",
     "project": "한국교통대학교 홈페이지 개편 및 통합구축",
-    "period": "2016.08 – 2017.01",
+    "period": "2016–2017",
     "category": "대학교",
     "company": "지오넷",
     "url": "https://www.ut.ac.kr/"
@@ -450,7 +450,7 @@
   {
     "organization": "웹사이트 통합 고도화",
     "project": "웹 사이트 통합 및 시스템 고도화 사업 용역",
-    "period": "2016.07 – 2017.01",
+    "period": "2016–2017",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -458,7 +458,7 @@
   {
     "organization": "충주시",
     "project": "충주시 문화관광 홈페이지 개편 용역",
-    "period": "2016.07 – 2016.10",
+    "period": "2016",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -466,7 +466,7 @@
   {
     "organization": "보은군",
     "project": "보은군 관광홈페이지 전면개편 용역",
-    "period": "2016.07 – 2016.09",
+    "period": "2016",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -474,7 +474,7 @@
   {
     "organization": "ABS 정보지원센터",
     "project": "ABS 정보지원센터 홈페이지 구축",
-    "period": "2016.06 – 2016.08",
+    "period": "2016",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -482,7 +482,7 @@
   {
     "organization": "열린 사진 DB",
     "project": "열린 사진 DB 구축 사업",
-    "period": "2016.06 – 2016.12",
+    "period": "2016",
     "category": "박물관",
     "company": "지오넷",
     "url": null
@@ -490,7 +490,7 @@
   {
     "organization": "공주시",
     "project": "공주시 홈페이지 CMS 기능개선 사업",
-    "period": "2016.06 – 2016.07",
+    "period": "2016",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -498,7 +498,7 @@
   {
     "organization": "한국해양과학기술원",
     "project": "한국해양과학기술원 홈페이지 개편 용역",
-    "period": "2015.12 – 2016.05",
+    "period": "2015–2016",
     "category": "연구기관",
     "company": "지오넷",
     "url": "https://www.kiost.ac.kr/"
@@ -506,7 +506,7 @@
   {
     "organization": "국립해양생물자원관",
     "project": "국립해양생물자원관 홈페이지 개편 및 유지보수",
-    "period": "2015.09 – 2015.12",
+    "period": "2015",
     "category": "연구기관",
     "company": "지오넷",
     "url": "https://www.mabik.re.kr/"
@@ -514,7 +514,7 @@
   {
     "organization": "김천대학교",
     "project": "김천대학교 홈페이지 전면개편 용역",
-    "period": "2015.08 – 2016.02",
+    "period": "2015–2016",
     "category": "대학교",
     "company": "지오넷",
     "url": null
@@ -522,7 +522,7 @@
   {
     "organization": "금산군",
     "project": "금산군 포털웹서비스 구축사업",
-    "period": "2015.05 – 2015.09",
+    "period": "2015",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -530,7 +530,7 @@
   {
     "organization": "경상남도(경남관광길잡이)",
     "project": "경남관광길잡이 모바일 홈페이지 구축",
-    "period": "2015.05 – 2015.07",
+    "period": "2015",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -538,7 +538,7 @@
   {
     "organization": "세종시",
     "project": "세종특별시청 홈페이지 개편사업",
-    "period": "2014.10 – 2015.04",
+    "period": "2014–2015",
     "category": "지자체",
     "company": "지오넷",
     "url": "https://www.sejong.go.kr/"
@@ -546,7 +546,7 @@
   {
     "organization": "보령시",
     "project": "보령시 대표 홈페이지 전면 개편사업",
-    "period": "2014.09 – 2015.03",
+    "period": "2014–2015",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -554,7 +554,7 @@
   {
     "organization": "서천군",
     "project": "웹3.0기반 서천군 통합 인터넷서비스 구축",
-    "period": "2014.09 – 2015.03",
+    "period": "2014–2015",
     "category": "지자체",
     "company": "지오넷",
     "url": "https://www.seocheon.go.kr/"
@@ -562,7 +562,7 @@
   {
     "organization": "KAIST 경영대학",
     "project": "WCAG2.0기반 KAIST 경영대학 홈페이지 구축",
-    "period": "2014.08 – 2014.12",
+    "period": "2014",
     "category": "대학교",
     "company": "지오넷",
     "url": "https://www.kaist.ac.kr/"
@@ -570,7 +570,7 @@
   {
     "organization": "부여군",
     "project": "부여군 대표 홈페이지 재구축",
-    "period": "2014.08 – 2014.12",
+    "period": "2014",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -578,7 +578,7 @@
   {
     "organization": "충청남도(충남관광)",
     "project": "충남관광 홈페이지 전면개편 용역",
-    "period": "2014.07 – 2014.12",
+    "period": "2014",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -586,7 +586,7 @@
   {
     "organization": "국립제주박물관",
     "project": "국립제주박물관 홈페이지 개편",
-    "period": "2014.06 – 2014.09",
+    "period": "2014",
     "category": "박물관",
     "company": "지오넷",
     "url": null
@@ -594,7 +594,7 @@
   {
     "organization": "천주교 성지",
     "project": "교황방문 천주교 성지 온라인 콘텐츠 보강사업",
-    "period": "2014.05 – 2014.07",
+    "period": "2014",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -602,7 +602,7 @@
   {
     "organization": "괴산세계유기농산업엑스포",
     "project": "괴산세계유기농산업엑스포 공식홈페이지 구축",
-    "period": "2014.05 – 2014.10",
+    "period": "2014",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -610,7 +610,7 @@
   {
     "organization": "국립공주박물관",
     "project": "국립공주박물관 홈페이지 개편",
-    "period": "2014.05 – 2014.07",
+    "period": "2014",
     "category": "박물관",
     "company": "지오넷",
     "url": null
@@ -618,7 +618,7 @@
   {
     "organization": "논산시",
     "project": "논산시 중소기업지원 홈페이지 구축 용역",
-    "period": "2014.03 – 2014.05",
+    "period": "2014",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -626,7 +626,7 @@
   {
     "organization": "충청남도(전통시장 포털)",
     "project": "충남 전통시장 포털 홈페이지 구축",
-    "period": "2014.02 – 2014.06",
+    "period": "2014",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -634,7 +634,7 @@
   {
     "organization": "STP",
     "project": "STP 국영문 홈페이지 개편 및 연간 유지보수",
-    "period": "2014.01 – 2014.03",
+    "period": "2014",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -642,7 +642,7 @@
   {
     "organization": "금산군",
     "project": "금산군 계약정보 공개시스템 구축",
-    "period": "2014.01 – 2014.02",
+    "period": "2014",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -650,7 +650,7 @@
   {
     "organization": "IBS",
     "project": "IBS 홈페이지 통합사업 용역",
-    "period": "2013.11 – 2014.04",
+    "period": "2013–2014",
     "category": "연구기관",
     "company": "지오넷",
     "url": "https://www.ibs.re.kr/"
@@ -658,7 +658,7 @@
   {
     "organization": "국가연구시설장비진흥센터",
     "project": "국가연구시설장비진흥센터 홈페이지 및 다운로드센터 유지보수 용역",
-    "period": "2013.11 – 2013.12",
+    "period": "2013",
     "category": "연구기관",
     "company": "지오넷",
     "url": null
@@ -666,7 +666,7 @@
   {
     "organization": "한국전기연구원",
     "project": "한국전기연구원 홈페이지 전면개편 및 확장형 웹구축",
-    "period": "2013.10 – 2013.12",
+    "period": "2013",
     "category": "연구기관",
     "company": "지오넷",
     "url": "https://www.keri.re.kr/"
@@ -674,7 +674,7 @@
   {
     "organization": "한국기술교육대학교",
     "project": "한국기술교육대학교 홈페이지 재구축 용역",
-    "period": "2013.10 – 2014.01",
+    "period": "2013–2014",
     "category": "대학교",
     "company": "지오넷",
     "url": "https://www.koreatech.ac.kr/"
@@ -682,7 +682,7 @@
   {
     "organization": "국립나주박물관",
     "project": "국립나주박물관 홈페이지 구축사업",
-    "period": "2013.09 – 2013.11",
+    "period": "2013",
     "category": "박물관",
     "company": "지오넷",
     "url": null
@@ -690,7 +690,7 @@
   {
     "organization": "비특허문헌 통합검색시스템",
     "project": "비특허문헌 통합검색시스템 구축사업",
-    "period": "2013.08 – 2013.10",
+    "period": "2013",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -698,7 +698,7 @@
   {
     "organization": "KAIST",
     "project": "WCAG 2.0기반 KAIST 홈페이지 구축사업",
-    "period": "2013.08 – 2013.12",
+    "period": "2013",
     "category": "대학교",
     "company": "지오넷",
     "url": "https://www.kaist.ac.kr/"
@@ -706,7 +706,7 @@
   {
     "organization": "계룡문화예술의전당",
     "project": "계룡문화예술의전당 홈페이지 구축용역",
-    "period": "2013.08 – 2013.11",
+    "period": "2013",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -714,7 +714,7 @@
   {
     "organization": "서천군",
     "project": "서천 지명탄생 600주년 기념사업 홈페이지 구축 용역",
-    "period": "2013.08 – 2013.10",
+    "period": "2013",
     "category": "지자체",
     "company": "지오넷",
     "url": "https://www.seocheon.go.kr/"
@@ -722,7 +722,7 @@
   {
     "organization": "금산군(산림문화타운)",
     "project": "금산산림문화타운 홈페이지 보강사업",
-    "period": "2013.07 – 2013.09",
+    "period": "2013",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -730,7 +730,7 @@
   {
     "organization": "증평군",
     "project": "증평군 행정홈페이지 및 문화관광 홈페이지 구축사업",
-    "period": "2013.07 – 2013.12",
+    "period": "2013",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -738,7 +738,7 @@
   {
     "organization": "한밭도서관",
     "project": "한밭도서관 홈페이지 재구축 사업",
-    "period": "2013.07 – 2013.08",
+    "period": "2013",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -746,7 +746,7 @@
   {
     "organization": "충청남도(충남관광)",
     "project": "충남관광 홈페이지 서비스 확대사업",
-    "period": "2013.07 – 2013.11",
+    "period": "2013",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -754,7 +754,7 @@
   {
     "organization": "QR코드 관리시스템",
     "project": "QR코드 생성 및 관리시스템 구축사업",
-    "period": "2013.07",
+    "period": "2013",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -762,7 +762,7 @@
   {
     "organization": "영동군",
     "project": "영동군 홈페이지 통합 구축 및 기능강화 용역",
-    "period": "2013.07 – 2013.09",
+    "period": "2013",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -770,7 +770,7 @@
   {
     "organization": "산림공원사업소",
     "project": "산림공원사업소 신설에 따른 군 홈페이지 보강구축",
-    "period": "2013.07 – 2013.08",
+    "period": "2013",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -778,7 +778,7 @@
   {
     "organization": "스마트 검색시스템",
     "project": "스마트 검색시스템 구축 사업 계약",
-    "period": "2013.07 – 2013.12",
+    "period": "2013",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -786,7 +786,7 @@
   {
     "organization": "공주시",
     "project": "공주시 계약정보공개시스템 구축 용역",
-    "period": "2012.11 – 2013.02",
+    "period": "2012–2013",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -794,7 +794,7 @@
   {
     "organization": "동영상 스트리밍 솔루션",
     "project": "동영상 스트리밍 솔루션 구매",
-    "period": "2012.11 – 2012.12",
+    "period": "2012",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -802,7 +802,7 @@
   {
     "organization": "어린이팔만대장경",
     "project": "어린이팔만대장경 애니메이션 제작용역",
-    "period": "2012.10 – 2013.01",
+    "period": "2012–2013",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -810,7 +810,7 @@
   {
     "organization": "군정홍보 화면보호기",
     "project": "군정홍보용 PC화면보호기 제작용역",
-    "period": "2012.03 – 2012.04",
+    "period": "2012",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -818,7 +818,7 @@
   {
     "organization": "당진시",
     "project": "당진시 모바일홈페이지 및 동주민자치센터 홈페이지 구축",
-    "period": "2011.10 – 2011.12",
+    "period": "2011",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -826,7 +826,7 @@
   {
     "organization": "옥천군",
     "project": "스마트 옥천 어플리케이션 개발 용역",
-    "period": "2011.09 – 2011.12",
+    "period": "2011",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -834,7 +834,7 @@
   {
     "organization": "옥천군",
     "project": "옥천군 외국어 홈페이지 재구축",
-    "period": "2010.11 – 2011.01",
+    "period": "2010–2011",
     "category": "지자체",
     "company": "지오넷",
     "url": "https://www.oc.go.kr/"
@@ -842,7 +842,7 @@
   {
     "organization": "좌구산 자연휴양림",
     "project": "좌구산 자연휴양림 및 율리휴양촌 홈페이지 구축용역",
-    "period": "2010.11 – 2011.02",
+    "period": "2010–2011",
     "category": "기타",
     "company": "지오넷",
     "url": null
@@ -850,7 +850,7 @@
   {
     "organization": "옥천문화원",
     "project": "옥천문화원 홈페이지 재구축 용역",
-    "period": "2010.04",
+    "period": "2010",
     "category": "기타",
     "company": "지오넷",
     "url": "https://www.oc.go.kr/"
@@ -858,7 +858,7 @@
   {
     "organization": "증평군",
     "project": "증평군 보건소 홈페이지 웹접근성 개선 용역",
-    "period": "2010.03 – 2010.05",
+    "period": "2010",
     "category": "지자체",
     "company": "지오넷",
     "url": null
@@ -866,7 +866,7 @@
   {
     "organization": "충주 폴리텍IV대학",
     "project": "충주 폴리텍IV대학 홈페이지 구축",
-    "period": "2009.01 – 2009.02",
+    "period": "2009",
     "category": "대학교",
     "company": "초기 경력",
     "url": null
@@ -874,7 +874,7 @@
   {
     "organization": "청주시",
     "project": "청주시 문화예술체육관 홈페이지 구축",
-    "period": "2008.12 – 2009.01",
+    "period": "2008–2009",
     "category": "기타",
     "company": "초기 경력",
     "url": null
@@ -882,7 +882,7 @@
   {
     "organization": "서울 종로구",
     "project": "서울 종로구청 보건소 홈페이지 구축",
-    "period": "2008.07 – 2008.10",
+    "period": "2008",
     "category": "지자체",
     "company": "초기 경력",
     "url": null
@@ -890,7 +890,7 @@
   {
     "organization": "서울 중랑구",
     "project": "서울 중랑구청 보건소 홈페이지 구축",
-    "period": "2008.02",
+    "period": "2008",
     "category": "지자체",
     "company": "초기 경력",
     "url": null
@@ -898,7 +898,7 @@
   {
     "organization": "한국디지털미디어고등학교",
     "project": "한국디지털미디어고등학교 홈페이지구축사업",
-    "period": "2008.01 – 2008.05",
+    "period": "2008",
     "category": "기타",
     "company": "초기 경력",
     "url": null
@@ -906,7 +906,7 @@
   {
     "organization": "충청북도지역혁신협의회",
     "project": "충청북도지역혁신협의회 홈페이지 구축",
-    "period": "2008.01 – 2008.05",
+    "period": "2008",
     "category": "기타",
     "company": "초기 경력",
     "url": null
@@ -914,7 +914,7 @@
   {
     "organization": "서울 중랑구",
     "project": "서울 중랑구청 문화관광 홈페이지 구축",
-    "period": "2008.01 – 2008.03",
+    "period": "2008",
     "category": "지자체",
     "company": "초기 경력",
     "url": null

@@ -2,9 +2,8 @@ let ITEMS = [];
 let state = { sortKey: '_date', sortDir: 'desc', cat: '전체', q: '' };
 
 function parseDate(period) {
-  const m = period.match(/(\d{4})\.(\d{2})/);
-  if (!m) return '0000-00';
-  return m[1] + '-' + m[2];
+  const m = period.match(/(\d{4})/);
+  return m ? m[1] : '0000';
 }
 
 function escapeHtml(s) {
