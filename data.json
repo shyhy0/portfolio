@@ -29,7 +29,7 @@
     "period": "2025",
     "category": "연구기관",
     "company": "지오넷",
-    "url": null
+    "url": "https://aict.snu.ac.kr/kor.do"
   },
   {
     "organization": "K-클럽(과학기술인 경력개발 플랫폼)",
@@ -37,7 +37,7 @@
     "period": "2025",
     "category": "기타",
     "company": "지오넷",
-    "url": null
+    "url": "https://k-club.kird.re.kr/"
   },
   {
     "organization": "서산시",
@@ -45,13 +45,13 @@
     "period": "2025",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.seosan.go.kr/dataportal/"
   },
   {
     "organization": "우주항공청",
     "project": "우주항공청 대표 누리집 고도화 사업",
     "period": "2024–2025",
-    "category": "기타",
+    "category": "국가기관",
     "company": "지오넷",
     "url": "https://www.kasa.go.kr/"
   },
@@ -85,7 +85,7 @@
     "period": "2023",
     "category": "기타",
     "company": "지오넷",
-    "url": null
+    "url": "https://k-club.kird.re.kr/"
   },
   {
     "organization": "국립등대박물관",
@@ -93,7 +93,7 @@
     "period": "2023",
     "category": "박물관",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.lighthouse-museum.or.kr/kor/index.do"
   },
   {
     "organization": "논산시",
@@ -101,15 +101,15 @@
     "period": "2023",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.nonsan.go.kr/bigdata/dataportal/"
   },
   {
     "organization": "WISET",
     "project": "WISET 홈페이지 재구축 용역 사업",
     "period": "2022",
-    "category": "기타",
+    "category": "연구기관",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.wiset.or.kr/"
   },
   {
     "organization": "충남대학교병원",
@@ -125,7 +125,7 @@
     "period": "2022",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.seogu.go.kr/kor.do"
   },
   {
     "organization": "웅진백제문화 아카이브",
@@ -133,7 +133,7 @@
     "period": "2021–2022",
     "category": "박물관",
     "company": "지오넷",
-    "url": null
+    "url": "https://gongju.museum.go.kr/archive/"
   },
   {
     "organization": "국립나주박물관",
@@ -141,15 +141,15 @@
     "period": "2021–2022",
     "category": "박물관",
     "company": "지오넷",
-    "url": null
+    "url": "https://naju.museum.go.kr/"
   },
   {
     "organization": "윤봉길의사기념관",
     "project": "윤봉길의사기념관 홈페이지 구축",
     "period": "2021",
-    "category": "박물관",
+    "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.yesan.go.kr/ybgm/index.do"
   },
   {
     "organization": "온시민(통합건강관리시스템)",
