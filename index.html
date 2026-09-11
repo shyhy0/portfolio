@@ -78,7 +78,41 @@
     border-bottom: 1px solid var(--border);
     padding: 48px 24px 36px;
   }
-  .top-inner { max-width: 1080px; margin: 0 auto; }
+  .top-inner {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+  }
+  .top-text { flex: 1 1 auto; min-width: 0; }
+  .career-viz {
+    position: relative;
+    flex: 0 0 auto;
+    width: 220px;
+    height: 220px;
+    touch-action: none;
+    cursor: grab;
+  }
+  .career-viz canvas { display: block; width: 100%; height: 100%; }
+  .viz-tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: var(--gray-95);
+    color: var(--gray-0);
+    font-size: 1.2rem;
+    line-height: 1.3;
+    padding: 4px 9px;
+    border-radius: 4px;
+    white-space: nowrap;
+    transform: translate(-50%, -135%);
+    z-index: 5;
+  }
+  .viz-tooltip[hidden] { display: none; }
+  @media (max-width: 880px) {
+    .career-viz { display: none; }
+  }
   h1 {
     font-size: 3.2rem;
     font-weight: 700;
@@ -188,8 +222,14 @@
 
 <header class="top">
   <div class="top-inner">
-    <h1>공공기관 웹사이트, 18년을 퍼블리싱하다</h1>
-    <p class="role">프론트엔드 개발 · 웹퍼블리싱 리드. 지자체·대학·병원·국립기관 홈페이지를 기획부터 접근성 검수까지 책임지며 다수의 구축·개편 사업을 수행했습니다.</p>
+    <div class="top-text">
+      <h1>공공기관 웹사이트, 18년을 퍼블리싱하다</h1>
+      <p class="role">프론트엔드 개발 · 웹퍼블리싱 리드. 지자체·대학·병원·국립기관 홈페이지를 기획부터 접근성 검수까지 책임지며 다수의 구축·개편 사업을 수행했습니다.</p>
+    </div>
+    <div class="career-viz" id="career-viz" aria-hidden="true">
+      <canvas id="career-viz-canvas"></canvas>
+      <div class="viz-tooltip" id="viz-tooltip" hidden></div>
+    </div>
   </div>
 </header>
 
@@ -206,6 +246,7 @@
         <button type="button" class="chip" data-cat="대학교" aria-pressed="false">대학교</button>
         <button type="button" class="chip" data-cat="병원" aria-pressed="false">병원</button>
         <button type="button" class="chip" data-cat="연구기관" aria-pressed="false">연구기관</button>
+        <button type="button" class="chip" data-cat="국가기관" aria-pressed="false">국가기관</button>
         <button type="button" class="chip" data-cat="박물관" aria-pressed="false">박물관</button>
         <button type="button" class="chip" data-cat="기타" aria-pressed="false">기타</button>
       </div>
@@ -233,7 +274,15 @@
 </main>
 </div>
 
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.1/build/three.module.js"
+  }
+}
+</script>
 <script src="./app.js"></script>
+<script type="module" src="./viz.js"></script>
 
 </body>
 </html>
