@@ -165,7 +165,7 @@
     "period": "2021",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.nonsan.go.kr/bigdata/dataportal/"
   },
   {
     "organization": "천안시",
@@ -181,7 +181,7 @@
     "period": "2021",
     "category": "기타",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.nowonseniorhappiness.co.kr/nowon/"
   },
   {
     "organization": "아산시",
@@ -197,7 +197,7 @@
     "period": "2021",
     "category": "박물관",
     "company": "지오넷",
-    "url": null
+    "url": "https://chuncheon.museum.go.kr/kor/index.do"
   },
   {
     "organization": "건양대학교병원",
@@ -205,7 +205,7 @@
     "period": "2021–2022",
     "category": "병원",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.kyuh.ac.kr/"
   },
   {
     "organization": "UST",
@@ -213,7 +213,7 @@
     "period": "2021",
     "category": "대학교",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.ust.ac.kr/kor/"
   },
   {
     "organization": "대전광역시 유성구",
@@ -221,7 +221,7 @@
     "period": "2020–2021",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.yuseong.go.kr/kor/"
   },
   {
     "organization": "한국기업데이터(주)",
@@ -237,7 +237,7 @@
     "period": "2020",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.nonsan.go.kr/cheongsa/cyber/main/"
   },
   {
     "organization": "대전광역시 중구",
@@ -245,15 +245,15 @@
     "period": "2020",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.djjunggu.go.kr/kr/index.do"
   },
   {
     "organization": "대전광역시(대전예술의전당)",
     "project": "공연자료 디지털 아카이브시스템 구축 용역",
     "period": "2020",
-    "category": "박물관",
+    "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://djacarchive.daejeon.go.kr/"
   },
   {
     "organization": "한국교통대학교",
@@ -269,7 +269,7 @@
     "period": "2020",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.nonsan.go.kr/bigdata/dataportal/"
   },
   {
     "organization": "증평군",
@@ -277,23 +277,23 @@
     "period": "2020",
     "category": "박물관",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.jp.go.kr/kds.do"
   },
   {
     "organization": "금산군",
     "project": "금산인삼 수출플랫폼 구축 용역",
     "period": "2019–2020",
-    "category": "기타",
+    "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://insamtrade.kr/kr/"
   },
   {
     "organization": "한국과학기술원",
     "project": "개교 50주년 기념사업 공모전 홈페이지 구축",
     "period": "2019",
-    "category": "기타",
+    "category": "대학교",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.kaist.ac.kr/50/"
   },
   {
     "organization": "공주시",
@@ -301,7 +301,7 @@
     "period": "2019–2020",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.gongju.go.kr/kr/index.do"
   },
   {
     "organization": "한밭대학교",
@@ -317,7 +317,7 @@
     "period": "2019",
     "category": "연구기관",
     "company": "지오넷",
-    "url": null
+    "url": "https://plan.nrf.re.kr/kor/index.php"
   },
   {
     "organization": "한국조세재정연구원",
@@ -349,7 +349,7 @@
     "period": "2018",
     "category": "박물관",
     "company": "지오넷",
-    "url": null
+    "url": "https://gongju.museum.go.kr/kor/index.do"
   },
   {
     "organization": "고성군",
@@ -357,7 +357,7 @@
     "period": "2018–2019",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.gwgs.go.kr/"
   },
   {
     "organization": "상지대학교",
@@ -365,15 +365,15 @@
     "period": "2018–2019",
     "category": "대학교",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.sangji.ac.kr/kor/index.do"
   },
   {
     "organization": "대전광역시",
     "project": "사진기록물 관리 아카이브 시스템 구축 사업",
     "period": "2018",
-    "category": "박물관",
+    "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://photo.daejeon.go.kr/"
   },
   {
     "organization": "예산군",
@@ -381,7 +381,7 @@
     "period": "2018",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.yesan.go.kr/cyber/hall/index.html"
   },
   {
     "organization": "경북도청",
@@ -389,7 +389,7 @@
     "period": "2017",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://taiso.go.kr/main.do"
   },
   {
     "organization": "공주시의회",
@@ -397,7 +397,7 @@
     "period": "2017",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.gongju.go.kr/council/index.do"
   },
   {
     "organization": "건양대학교",
@@ -413,7 +413,7 @@
     "period": "2017",
     "category": "대학교",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.semyung.ac.kr/kor.do"
   },
   {
     "organization": "울진군",
@@ -421,7 +421,7 @@
     "period": "2016–2017",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.uljin.go.kr/tour/index.uljin"
   },
   {
     "organization": "태안군",
@@ -429,15 +429,15 @@
     "period": "2016",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.taean.go.kr/kor.do"
   },
   {
     "organization": "울진군",
     "project": "군정 사진·영상 통합전자관리시스템 구축",
     "period": "2016–2017",
-    "category": "기타",
+    "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://photo.uljin.go.kr/"
   },
   {
     "organization": "한국교통대학교",
@@ -448,12 +448,12 @@
     "url": "https://www.ut.ac.kr/"
   },
   {
-    "organization": "웹사이트 통합 고도화",
+    "organization": "당진시청",
     "project": "웹 사이트 통합 및 시스템 고도화 사업 용역",
     "period": "2016–2017",
-    "category": "기타",
+    "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.dangjin.go.kr/kor.do"
   },
   {
     "organization": "충주시",
@@ -461,7 +461,7 @@
     "period": "2016",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://cjcf.or.kr/new/"
   },
   {
     "organization": "보은군",
@@ -469,23 +469,23 @@
     "period": "2016",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.boeun.go.kr/tour/"
   },
   {
     "organization": "ABS 정보지원센터",
     "project": "ABS 정보지원센터 홈페이지 구축",
     "period": "2016",
-    "category": "기타",
+    "category": "연구기관",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.mabik.re.kr/abs/index.do"
   },
   {
-    "organization": "열린 사진 DB",
+    "organization": "청양군",
     "project": "열린 사진 DB 구축 사업",
     "period": "2016",
-    "category": "박물관",
+    "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.cheongyang.go.kr/photo/kor.do"
   },
   {
     "organization": "공주시",
@@ -493,7 +493,7 @@
     "period": "2016",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.gongju.go.kr/kr/index.do"
   },
   {
     "organization": "한국해양과학기술원",
@@ -517,7 +517,7 @@
     "period": "2015–2016",
     "category": "대학교",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.gimcheon.ac.kr/site/gimcheon/index.html"
   },
   {
     "organization": "금산군",
@@ -525,7 +525,7 @@
     "period": "2015",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.geumsan.go.kr/kr/"
   },
   {
     "organization": "경상남도(경남관광길잡이)",
@@ -533,7 +533,7 @@
     "period": "2015",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://tour.gyeongnam.go.kr/index.gyeong"
   },
   {
     "organization": "세종시",
@@ -549,7 +549,7 @@
     "period": "2014–2015",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.brcn.go.kr/"
   },
   {
     "organization": "서천군",
@@ -573,7 +573,7 @@
     "period": "2014",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.buyeo.go.kr/html/kr/"
   },
   {
     "organization": "충청남도",
@@ -581,7 +581,7 @@
     "period": "2014",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://tour.chungnam.go.kr/kor.do"
   },
   {
     "organization": "국립제주박물관",
@@ -589,7 +589,7 @@
     "period": "2014",
     "category": "박물관",
     "company": "지오넷",
-    "url": null
+    "url": "https://jeju.museum.go.kr/html/kr/index.html"
   },
   {
     "organization": "천주교 성지",
@@ -613,7 +613,7 @@
     "period": "2014",
     "category": "박물관",
     "company": "지오넷",
-    "url": null
+    "url": "https://gongju.museum.go.kr/kor/index.do"
   },
   {
     "organization": "논산시",
@@ -632,10 +632,10 @@
     "url": null
   },
   {
-    "organization": "STP",
+    "organization": "연구개발특구진흥재단",
     "project": "STP 국영문 홈페이지 개편 및 연간 유지보수",
     "period": "2014",
-    "category": "기타",
+    "category": "연구기관",
     "company": "지오넷",
     "url": null
   },
@@ -645,7 +645,7 @@
     "period": "2014",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.geumsan.go.kr/gyeyak/contract/index.do"
   },
   {
     "organization": "IBS",
@@ -661,7 +661,7 @@
     "period": "2013",
     "category": "연구기관",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.nfec.go.kr/nfec.do"
   },
   {
     "organization": "한국전기연구원",
@@ -685,13 +685,13 @@
     "period": "2013",
     "category": "박물관",
     "company": "지오넷",
-    "url": null
+    "url": "https://naju.museum.go.kr/"
   },
   {
-    "organization": "비특허문헌 통합검색시스템",
+    "organization": "특허청",
     "project": "비특허문헌 통합검색시스템 구축사업",
     "period": "2013",
-    "category": "기타",
+    "category": "국가기관",
     "company": "지오넷",
     "url": null
   },
@@ -709,7 +709,7 @@
     "period": "2013",
     "category": "기타",
     "company": "지오넷",
-    "url": null
+    "url": "https://gyeryong.go.kr/ac/"
   },
   {
     "organization": "서천군",
@@ -717,7 +717,7 @@
     "period": "2013",
     "category": "지자체",
     "company": "지오넷",
-    "url": "https://www.seocheon.go.kr/"
+    "url": null
   },
   {
     "organization": "금산군",
@@ -733,7 +733,7 @@
     "period": "2013",
     "category": "지자체",
     "company": "지오넷",
-    "url": null
+    "url": "https://www.jp.go.kr/kor.do"
   },
   {
     "organization": "한밭도서관",
