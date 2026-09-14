@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>기술 경력 포트폴리오</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="./styles.css">
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.1/build/three.module.js"
+  }
+}
+</script>
+</head>
+<body>
+
+<nav class="site-nav" aria-label="페이지 이동">
+  <div class="site-nav-inner">
+    <a href="./index.html" aria-current="page">3D로 커리어 보기</a>
+    <a href="./projects.html">프로젝트 목록 →</a>
+  </div>
+</nav>
+
+<header class="top viz-hero">
+  <div class="top-inner">
+    <h1>공공기관 웹사이트, 18년을 퍼블리싱하다</h1>
+    <p class="role">프론트엔드 개발 · 웹퍼블리싱 리드. 지자체·대학·병원·국립기관 홈페이지를 기획부터 접근성 검수까지 책임지며 다수의 구축·개편 사업을 수행했습니다.</p>
+  </div>
+</header>
+
+<div class="wrap">
+<main>
+
+  <div class="viz-stage" id="career-viz" aria-hidden="true">
+    <canvas id="career-viz-canvas"></canvas>
+    <div class="viz-tooltip" id="viz-tooltip" hidden></div>
+  </div>
+  <p class="viz-hint" id="viz-hint">점 하나하나가 프로젝트 하나입니다. 드래그해서 돌려보거나, 점을 클릭해 자세히 볼 수 있어요.</p>
+
+  <section class="focus-panel" id="focus-panel" hidden aria-live="polite">
+    <p class="focus-tag" id="focus-tag"></p>
+    <p class="focus-org" id="focus-org"></p>
+    <p class="focus-project" id="focus-project"></p>
+    <div class="focus-actions">
+      <a class="focus-link" id="focus-link" href="./projects.html">프로젝트 목록에서 보기 →</a>
+      <button type="button" class="btn" id="copy-link">이 화면 링크 복사</button>
+      <button type="button" class="focus-reset" id="focus-reset">전체 다시 보기</button>
+    </div>
+  </section>
+
+</main>
+</div>
+
+<script type="module" src="./viz.js"></script>
+
+</body>
+</html>

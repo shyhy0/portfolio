@@ -1,0 +1,262 @@
+/*
+  Color / type values below are taken directly from the official
+  KRDS (대한민국 정부 디자인 시스템) design tokens:
+  https://github.com/KRDS-uiux/krds-uiux  (resources/css/token/krds_tokens.css)
+*/
+:root {
+  /* KRDS primitive — primary (blue) */
+  --primary-5:  #ecf2fe;
+  --primary-10: #d8e5fd;
+  --primary-50: #256ef4;
+  --primary-60: #0b50d0;
+  --primary-70: #083891;
+
+  /* KRDS primitive — point (red, used for emphasis/active states) */
+  --point-5:  #fbeff0;
+  --point-50: #d63d4a;
+  --point-60: #ab2b36;
+
+  /* KRDS primitive — gray */
+  --gray-0:  #ffffff;
+  --gray-5:  #f4f5f6;
+  --gray-10: #e6e8ea;
+  --gray-20: #cdd1d5;
+  --gray-30: #b1b8be;
+  --gray-40: #8a949e;
+  --gray-50: #6d7882;
+  --gray-70: #464c53;
+  --gray-90: #1e2124;
+  --gray-95: #131416;
+
+  /* KRDS semantic aliases actually used on this site */
+  --text-basic:  var(--gray-90);
+  --text-bolder: var(--gray-95);
+  --text-subtle: var(--gray-70);
+  --text-primary: var(--primary-60);
+  --link-default: var(--primary-50);
+  --link-hover:   var(--primary-60);
+  --border: var(--gray-10);
+  --border-strong: var(--gray-20);
+  --border-interactive: var(--gray-40);
+  --text-muted-aa: var(--gray-70);
+  --surface-primary-subtler: var(--primary-5);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+html { font-size: 62.5%; } /* 1rem = 10px, matches KRDS token scale directly */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--gray-0);
+  color: var(--text-basic);
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  font-size: 1.7rem; /* krds body-medium */
+  line-height: 1.6;
+}
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px 100px; }
+a { color: var(--link-default); }
+a:hover { color: var(--link-hover); }
+a:focus-visible, button:focus-visible, input:focus-visible, th:focus-visible {
+  outline: 2px solid var(--primary-50);
+  outline-offset: 1px;
+}
+
+/* top navigation between the two pages */
+.site-nav {
+  border-bottom: 1px solid var(--border);
+  padding: 14px 24px;
+}
+.site-nav-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 1.4rem;
+}
+.site-nav a {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--text-subtle);
+}
+.site-nav a[aria-current="page"] { color: var(--text-primary); }
+.site-nav a:hover { color: var(--text-primary); }
+
+/* header */
+header.top {
+  border-top: 4px solid var(--primary-50);
+  border-bottom: 1px solid var(--border);
+  padding: 48px 24px 36px;
+}
+.top-inner { max-width: 1080px; margin: 0 auto; }
+h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: var(--text-bolder);
+  margin: 0 0 12px;
+  line-height: 1.35;
+}
+.role {
+  font-size: 1.7rem;
+  color: var(--text-subtle);
+  margin: 0;
+  max-width: 640px;
+}
+
+/* generic pill button, used for chips, copy-link and reset actions */
+.btn {
+  font-family: inherit;
+  border: 1px solid var(--border-interactive);
+  background: var(--gray-0);
+  color: var(--text-basic);
+  border-radius: 4px;
+  padding: 9px 14px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.btn:hover { border-color: var(--primary-50); color: var(--text-primary); }
+.btn:disabled { opacity: 0.6; cursor: default; color: var(--text-subtle); border-color: var(--border-interactive); }
+
+/* controls (search / chips / copy-link) */
+.controls {
+  position: sticky; top: 0;
+  background: var(--gray-0);
+  padding: 20px 0 14px;
+  border-bottom: 1px solid var(--border);
+  z-index: 10;
+}
+.controls-row { display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
+.controls-left { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+#search {
+  font-family: inherit;
+  font-size: 1.5rem;
+  padding: 9px 14px;
+  border: 1px solid var(--border-interactive);
+  border-radius: 4px;
+  background: var(--gray-0);
+  color: var(--text-basic);
+  width: 260px;
+  max-width: 100%;
+}
+#search::placeholder { color: var(--text-subtle); }
+
+.chip-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.chip { padding: 6px 13px; font-size: 1.4rem; }
+.chip.active { background: var(--primary-50); border-color: var(--primary-50); color: var(--gray-0); }
+
+/* table */
+table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 1.5rem; }
+.table-scroll { overflow-x: auto; }
+thead th {
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: var(--text-subtle);
+  background: var(--gray-5);
+  padding: 11px 12px;
+  border-bottom: 2px solid var(--border-strong);
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+}
+thead th:hover { color: var(--text-primary); }
+thead th:focus-visible { outline-offset: -2px; }
+thead th:first-child { border-top-left-radius: 4px; }
+thead th:last-child { border-top-right-radius: 4px; }
+thead th .arrow { font-size: 1.1rem; margin-left: 3px; color: var(--primary-50); }
+tbody td { padding: 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+tbody tr:hover { background: var(--surface-primary-subtler); }
+td.col-org { font-weight: 700; color: var(--text-bolder); white-space: nowrap; }
+td.col-title { color: var(--text-basic); }
+td.col-period { font-size: 1.4rem; color: var(--text-subtle); white-space: nowrap; }
+.proj-tag {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  background: var(--surface-primary-subtler);
+  border-radius: 4px;
+  padding: 3px 9px;
+  white-space: nowrap;
+}
+a.visit {
+  font-size: 1.4rem;
+  color: var(--link-default);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  white-space: nowrap;
+}
+.visit.muted { font-size: 1.4rem; color: var(--text-muted-aa); white-space: nowrap; }
+
+.empty-note, .loading-note { padding: 60px 0; text-align: center; color: var(--text-subtle); font-size: 1.5rem; }
+
+@media (max-width: 720px) {
+  thead th, tbody td { white-space: normal; }
+}
+
+/* --- 3D career visualization page --- */
+.viz-hero { padding: 44px 0 8px; }
+.viz-stage {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 1 / 1;
+  margin: 24px auto 0;
+  touch-action: none;
+  cursor: grab;
+}
+.viz-stage canvas { display: block; width: 100%; height: 100%; }
+.viz-hint {
+  text-align: center;
+  font-size: 1.3rem;
+  color: var(--text-subtle);
+  margin: 10px 0 0;
+}
+.viz-tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--gray-95);
+  color: var(--gray-0);
+  font-size: 1.2rem;
+  line-height: 1.3;
+  padding: 4px 9px;
+  border-radius: 4px;
+  white-space: nowrap;
+  transform: translate(-50%, -135%);
+  z-index: 5;
+}
+.viz-tooltip[hidden] { display: none; }
+
+.focus-panel {
+  max-width: 560px;
+  margin: 24px auto 0;
+  padding: 18px 20px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--gray-5);
+}
+.focus-panel[hidden] { display: none; }
+.focus-panel .focus-tag { font-size: 1.2rem; color: var(--text-subtle); }
+.focus-panel .focus-org { font-size: 1.9rem; font-weight: 700; color: var(--text-bolder); margin: 4px 0 2px; }
+.focus-panel .focus-project { font-size: 1.5rem; color: var(--text-basic); margin: 0 0 10px; }
+.focus-panel .focus-actions { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; font-size: 1.4rem; }
+.focus-panel .focus-link { font-weight: 700; text-decoration: none; }
+.focus-panel .focus-link:hover { text-decoration: underline; }
+.focus-panel .focus-reset { color: var(--text-subtle); background: none; border: none; padding: 0; font: inherit; cursor: pointer; text-decoration: underline; }
+
+.copy-fx { color: var(--point-60) !important; border-color: var(--point-50) !important; }
+
+@media (max-width: 560px) {
+  .viz-stage { max-width: 320px; }
+}

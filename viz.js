@@ -1,24 +1,35 @@
 // career-viz: 경력을 나타내는 3D 인터랙션 오브젝트.
 // data.json의 전체 프로젝트를 연도순으로 나선(helix)에 배치해
-// "18년간 이어진 하나의 궤적"을 형상화한다. 장식용 요소이므로
-// aria-hidden 처리되어 있고, 동일한 정보는 아래 표로도 모두 제공된다.
+// "18년간 이어진 하나의 궤적"을 형상화한다. 노드를 클릭하거나
+// ?org=<기관명> 파라미터로 접속하면 해당 프로젝트에 초점을 맞추고,
+// 그 상태 그대로 주소창 URL을 복사해 공유할 수 있다.
 import * as THREE from 'three';
+import { fetchCareerItems, copyToClipboard } from './shared.js';
+
+const stage = document.getElementById('career-viz');
+const canvas = document.getElementById('career-viz-canvas');
+const tooltip = document.getElementById('viz-tooltip');
+const hint = document.getElementById('viz-hint');
+const panel = document.getElementById('focus-panel');
+const tagEl = document.getElementById('focus-tag');
+const orgEl = document.getElementById('focus-org');
+const projectEl = document.getElementById('focus-project');
+const linkEl = document.getElementById('focus-link');
+const copyBtn = document.getElementById('copy-link');
+const resetBtn = document.getElementById('focus-reset');
 
 const CareerViz = (function () {
-  const container = document.getElementById('career-viz');
-  const canvas = document.getElementById('career-viz-canvas');
-  const tooltip = document.getElementById('viz-tooltip');
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   let scene, camera, renderer, group, raycaster, clock;
   let nodeMeshes = [];
   let hoveredMesh = null;
+  let currentFocused = null;
   let dragging = false;
   let dragMoved = 0;
   let lastX = 0;
   let lastY = 0;
   let autoRotate = true;
-  let ready = false;
 
   function cssVar(name, fallback) {
     const v = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
@@ -40,15 +51,21 @@ const CareerViz = (function () {
     return m ? parseInt(m[1], 10) : 0;
   }
 
+  function displayScale(mesh) {
+    if (mesh === currentFocused) return mesh.userData.baseScale * 1.9;
+    if (mesh === hoveredMesh) return mesh.userData.baseScale * 1.5;
+    return mesh.userData.baseScale;
+  }
+
   function buildScene(items) {
     const sorted = items.slice().sort((a, b) => parseYear(a.period) - parseYear(b.period));
     const n = sorted.length;
 
     scene = new THREE.Scene();
 
-    const rect = container.getBoundingClientRect();
-    const w = rect.width || 220;
-    const h = rect.height || 220;
+    const rect = stage.getBoundingClientRect();
+    const w = rect.width || 320;
+    const h = rect.height || 320;
 
     camera = new THREE.PerspectiveCamera(42, w / h, 0.1, 100);
     camera.position.set(0, 0, 4.4);
@@ -88,9 +105,10 @@ const CareerViz = (function () {
       const material = new THREE.MeshBasicMaterial({ color });
       const mesh = new THREE.Mesh(sphereGeo, material);
       mesh.position.set(x, y, z);
-      if (isLatest) mesh.scale.setScalar(1.8);
       mesh.userData.item = sorted[i];
+      mesh.userData.angle = angle;
       mesh.userData.baseScale = isLatest ? 1.8 : 1;
+      mesh.scale.setScalar(mesh.userData.baseScale);
       group.add(mesh);
       nodeMeshes.push(mesh);
       linePoints.push(new THREE.Vector3(x, y, z));
@@ -119,32 +137,73 @@ const CareerViz = (function () {
     return hits.length ? hits[0].object : null;
   }
 
+  function positionTooltip(clientX, clientY) {
+    const rect = stage.getBoundingClientRect();
+    tooltip.style.left = `${clientX - rect.left}px`;
+    tooltip.style.top = `${clientY - rect.top}px`;
+  }
+
   function setHovered(mesh, clientX, clientY) {
     if (hoveredMesh === mesh) {
-      if (mesh && tooltip) positionTooltip(clientX, clientY);
+      if (mesh) positionTooltip(clientX, clientY);
       return;
     }
-    if (hoveredMesh) hoveredMesh.scale.setScalar(hoveredMesh.userData.baseScale);
+    const prev = hoveredMesh;
     hoveredMesh = mesh;
+    if (prev) prev.scale.setScalar(displayScale(prev));
     if (mesh) {
-      mesh.scale.setScalar(mesh.userData.baseScale * 1.7);
+      mesh.scale.setScalar(displayScale(mesh));
       canvas.style.cursor = dragging ? 'grabbing' : 'pointer';
-      if (tooltip) {
-        const item = mesh.userData.item;
-        tooltip.textContent = `${item.organization} · ${item.period}`;
-        tooltip.hidden = false;
-        positionTooltip(clientX, clientY);
-      }
+      tooltip.textContent = `${mesh.userData.item.organization} · ${mesh.userData.item.period}`;
+      tooltip.hidden = false;
+      positionTooltip(clientX, clientY);
     } else {
       canvas.style.cursor = dragging ? 'grabbing' : 'grab';
-      if (tooltip) tooltip.hidden = true;
+      tooltip.hidden = true;
     }
   }
 
-  function positionTooltip(clientX, clientY) {
-    const rect = container.getBoundingClientRect();
-    tooltip.style.left = `${clientX - rect.left}px`;
-    tooltip.style.top = `${clientY - rect.top}px`;
+  function faceNode(mesh) {
+    group.rotation.y = Math.PI / 2 - mesh.userData.angle;
+  }
+
+  function showPanel(item) {
+    if (!panel) return;
+    tagEl.textContent = `${item.category} · ${item.period}`;
+    orgEl.textContent = item.organization;
+    projectEl.textContent = item.project;
+    linkEl.href = `./projects.html?q=${encodeURIComponent(item.organization)}`;
+    panel.hidden = false;
+  }
+
+  function hidePanel() {
+    if (panel) panel.hidden = true;
+  }
+
+  function focusNode(mesh, updateUrl) {
+    const prevFocused = currentFocused;
+    currentFocused = mesh;
+    if (prevFocused && prevFocused !== mesh) prevFocused.scale.setScalar(displayScale(prevFocused));
+    mesh.scale.setScalar(displayScale(mesh));
+    faceNode(mesh);
+    autoRotate = false;
+    showPanel(mesh.userData.item);
+    if (updateUrl) {
+      const p = new URLSearchParams();
+      p.set('org', mesh.userData.item.organization);
+      history.replaceState(null, '', `${location.pathname}?${p.toString()}`);
+    }
+  }
+
+  function clearFocus() {
+    if (currentFocused) {
+      const m = currentFocused;
+      currentFocused = null;
+      m.scale.setScalar(displayScale(m));
+    }
+    autoRotate = true;
+    hidePanel();
+    history.replaceState(null, '', location.pathname);
   }
 
   function onPointerDown(e) {
@@ -166,8 +225,7 @@ const CareerViz = (function () {
       lastY = e.clientY;
       return;
     }
-    const hit = pickNode(e.clientX, e.clientY);
-    setHovered(hit, e.clientX, e.clientY);
+    setHovered(pickNode(e.clientX, e.clientY), e.clientX, e.clientY);
   }
 
   function onPointerUp(e) {
@@ -175,9 +233,7 @@ const CareerViz = (function () {
     canvas.style.cursor = hoveredMesh ? 'pointer' : 'grab';
     if (dragMoved < 5) {
       const hit = pickNode(e.clientX, e.clientY);
-      if (hit && typeof window.focusOrganization === 'function') {
-        window.focusOrganization(hit.userData.item.organization);
-      }
+      if (hit) focusNode(hit, true);
     }
   }
 
@@ -192,14 +248,17 @@ const CareerViz = (function () {
     canvas.addEventListener('pointerup', onPointerUp);
     canvas.addEventListener('pointerleave', onPointerLeave);
 
+    if (resetBtn) resetBtn.addEventListener('click', clearFocus);
+    if (copyBtn) copyBtn.addEventListener('click', (e) => copyToClipboard(location.href, e.currentTarget));
+
     const ro = new ResizeObserver(() => handleResize());
-    ro.observe(container);
+    ro.observe(stage);
     window.addEventListener('resize', handleResize);
   }
 
   function handleResize() {
     if (!renderer || !camera) return;
-    const rect = container.getBoundingClientRect();
+    const rect = stage.getBoundingClientRect();
     if (!rect.width || !rect.height) return;
     camera.aspect = rect.width / rect.height;
     camera.updateProjectionMatrix();
@@ -215,28 +274,44 @@ const CareerViz = (function () {
     renderer.render(scene, camera);
   }
 
+  function applyUrlFocus() {
+    const org = new URLSearchParams(location.search).get('org');
+    if (!org) return;
+    const match = nodeMeshes.find(m => m.userData.item.organization === org) ||
+      nodeMeshes.find(m => m.userData.item.organization.toLowerCase().includes(org.toLowerCase()));
+    if (match) {
+      focusNode(match, false);
+    } else if (hint) {
+      hint.textContent = `"${org}" 프로젝트를 3D에서 찾지 못했습니다. 아래 링크에서 전체 목록을 확인해보세요.`;
+    }
+  }
+
   function init(items) {
-    if (ready || !container || !canvas || !items || !items.length) return;
+    if (!stage || !canvas || !items || !items.length) return;
     if (!supportsWebGL()) {
-      container.hidden = true;
+      stage.hidden = true;
+      if (hint) hint.textContent = '이 브라우저는 3D(WebGL)를 지원하지 않아 시각화를 표시할 수 없습니다. 프로젝트 목록에서 전체 이력을 확인해주세요.';
       return;
     }
-    ready = true;
     try {
       buildScene(items);
       attachEvents();
+      applyUrlFocus();
       animate();
     } catch (err) {
       console.error('career-viz init failed', err);
-      container.hidden = true;
+      stage.hidden = true;
+      if (hint) hint.textContent = '3D 시각화를 불러오는 중 문제가 발생했습니다. 프로젝트 목록에서 전체 이력을 확인해주세요.';
     }
   }
 
   return { init };
 })();
 
-if (window.__careerItems) {
-  CareerViz.init(window.__careerItems);
-} else {
-  window.addEventListener('career-data-ready', (e) => CareerViz.init(e.detail));
-}
+fetchCareerItems()
+  .then(items => CareerViz.init(items))
+  .catch(err => {
+    console.error(err);
+    if (stage) stage.hidden = true;
+    if (hint) hint.textContent = 'data.json을 불러오지 못했습니다. http(s)로 서빙되고 있는지 확인해주세요 (file://로 열면 차단됩니다).';
+  });
