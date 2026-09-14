@@ -3,57 +3,75 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>기술 경력 포트폴리오</title>
+<title>문혜영 기술 경력 포트폴리오</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
 <link rel="stylesheet" href="./styles.css">
-<script type="importmap">
-{
-  "imports": {
-    "three": "https://unpkg.com/three@0.160.1/build/three.module.js"
-  }
-}
-</script>
 </head>
 <body>
 
-<nav class="site-nav" aria-label="페이지 이동">
-  <div class="site-nav-inner">
-    <a href="./index.html" aria-current="page">3D로 커리어 보기</a>
-    <a href="./projects.html">프로젝트 목록 →</a>
-  </div>
-</nav>
-
-<header class="top viz-hero">
-  <div class="top-inner">
-    <h1>공공기관 웹사이트, 18년을 퍼블리싱하다</h1>
-    <p class="role">프론트엔드 개발 · 웹퍼블리싱 리드. 지자체·대학·병원·국립기관 홈페이지를 기획부터 접근성 검수까지 책임지며 다수의 구축·개편 사업을 수행했습니다.</p>
+<header class="site-header">
+  <div class="site-header-inner">
+    <a class="brand" href="./index.html">
+      <span class="brand-name">문혜영 기술 경력 포트폴리오</span>
+      <span class="brand-role">웹 프론트엔드</span>
+    </a>
+    <nav class="gnb" aria-label="주요 메뉴">
+      <a class="gnb-link" href="./index.html" aria-current="page">프로젝트 목록</a>
+      <!--<a class="gnb-link" href="./projects.html" aria-current="page">3D 커리어</a>-->
+    </nav>
   </div>
 </header>
+
+<section class="intro">
+  <div class="intro-inner">
+    <h1 class="intro-title">문혜영 기술·경력 DATA 포털</h1>
+    <p class="intro-desc">지자체·대학·병원·국립기관 홈페이지를 프론트엔드 개발 웹표준·웹접근성 검수까지 책임지며 다수의 구축·개편 사업을 수행했습니다.</p>
+
+    <div class="intro-search-row">
+      <label for="search" class="sr-only">기관명 또는 프로젝트명으로 검색</label>
+      <div class="intro-search">
+        <input id="search" type="search" placeholder="기관명, 프로젝트명 검색">
+      </div>
+    </div>
+
+    <!--<div class="intro-tags" id="cat-chips" role="group" aria-label="기관 유형 필터">
+      <button type="button" class="chip btn active" data-cat="전체" aria-pressed="true">전체</button>
+      <button type="button" class="chip btn" data-cat="지자체" aria-pressed="false">지자체</button>
+      <button type="button" class="chip btn" data-cat="대학교" aria-pressed="false">대학교</button>
+      <button type="button" class="chip btn" data-cat="병원" aria-pressed="false">병원</button>
+      <button type="button" class="chip btn" data-cat="연구기관" aria-pressed="false">연구기관</button>
+      <button type="button" class="chip btn" data-cat="국가기관" aria-pressed="false">국가기관</button>
+      <button type="button" class="chip btn" data-cat="박물관" aria-pressed="false">박물관</button>
+      <button type="button" class="chip btn" data-cat="기타" aria-pressed="false">기타</button>
+    </div>-->
+  </div>
+</section>
 
 <div class="wrap">
 <main>
 
-  <div class="viz-stage" id="career-viz" aria-hidden="true">
-    <canvas id="career-viz-canvas"></canvas>
-    <div class="viz-tooltip" id="viz-tooltip" hidden></div>
+  <div class="table-scroll">
+  <table id="proj-table">
+    <caption class="sr-only">유형, 기관명, 프로젝트명, 기간, 사이트 링크로 구성된 프로젝트 목록입니다. 열 머리글을 클릭하거나 Enter 키를 누르면 해당 기준으로 정렬됩니다. 검색어, 필터, 정렬 상태는 주소창 URL에 그대로 반영되어 링크로 공유할 수 있습니다.</caption>
+    <thead>
+      <tr>
+        <th scope="col" data-key="category" tabindex="0" role="button" aria-sort="none">유형 <span class="arrow" aria-hidden="true"></span></th>
+        <th scope="col" data-key="organization" tabindex="0" role="button" aria-sort="none">기관명 <span class="arrow" aria-hidden="true"></span></th>
+        <th scope="col" data-key="project" tabindex="0" role="button" aria-sort="none">프로젝트명 <span class="arrow" aria-hidden="true"></span></th>
+        <th scope="col" data-key="_date" tabindex="0" role="button" aria-sort="descending">기간 <span class="arrow" aria-hidden="true">▼</span></th>
+        <th scope="col">사이트</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+      <tr><td colspan="5" class="loading-note">데이터를 불러오는 중입니다...</td></tr>
+    </tbody>
+  </table>
   </div>
-  <p class="viz-hint" id="viz-hint">점 하나하나가 프로젝트 하나입니다. 드래그해서 돌려보거나, 점을 클릭해 자세히 볼 수 있어요.</p>
-
-  <section class="focus-panel" id="focus-panel" hidden aria-live="polite">
-    <p class="focus-tag" id="focus-tag"></p>
-    <p class="focus-org" id="focus-org"></p>
-    <p class="focus-project" id="focus-project"></p>
-    <div class="focus-actions">
-      <a class="focus-link" id="focus-link" href="./projects.html">프로젝트 목록에서 보기 →</a>
-      <button type="button" class="btn" id="copy-link">이 화면 링크 복사</button>
-      <button type="button" class="focus-reset" id="focus-reset">전체 다시 보기</button>
-    </div>
-  </section>
 
 </main>
 </div>
 
-<script type="module" src="./viz.js"></script>
+<script type="module" src="./table.js"></script>
 
 </body>
 </html>
