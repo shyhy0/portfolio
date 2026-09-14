@@ -35,7 +35,7 @@
     "organization": "국가과학기술인력개발원",
     "project": "과학기술인 경력개발 플랫폼(K-클럽) 고도화 사업",
     "period": "2025",
-    "category": "기타",
+    "category": "연구기관",
     "company": "지오넷",
     "url": "https://k-club.kird.re.kr/"
   },
@@ -59,7 +59,7 @@
     "organization": "국립한밭대학교",
     "project": "국립한밭대학교 홈페이지 고도화 사업",
     "period": "2024",
-    "category": "대학교",
+    "category": "교육기관",
     "company": "지오넷",
     "url": "https://www.hanbat.ac.kr/"
   },
@@ -67,7 +67,7 @@
     "organization": "한국교통대학교",
     "project": "한국교통대학교 통합홈페이지 고도화 구축 용역",
     "period": "2024",
-    "category": "대학교",
+    "category": "교육기관",
     "company": "지오넷",
     "url": "https://www.ut.ac.kr/"
   },
@@ -75,7 +75,7 @@
     "organization": "DGIST",
     "project": "DGIST 홈페이지 신규 구축 용역",
     "period": "2023–2024",
-    "category": "대학교",
+    "category": "교육기관",
     "company": "지오넷",
     "url": "https://www.dgist.ac.kr/"
   },
@@ -83,7 +83,7 @@
     "organization": "국가과학기술인력개발원",
     "project": "과학기술인 경력개발 종합지원 플랫폼 K-클럽 기능 개선 사업",
     "period": "2023",
-    "category": "기타",
+    "category": "연구기관",
     "company": "지오넷",
     "url": "https://k-club.kird.re.kr/"
   },
@@ -211,7 +211,7 @@
     "organization": "UST",
     "project": "UST 대표 홈페이지 구축 사업",
     "period": "2021",
-    "category": "대학교",
+    "category": "교육기관",
     "company": "지오넷",
     "url": "https://www.ust.ac.kr/kor/"
   },
@@ -259,7 +259,7 @@
     "organization": "한국교통대학교",
     "project": "한국교통대학교 홈페이지 개선 용역",
     "period": "2020",
-    "category": "대학교",
+    "category": "교육기관",
     "company": "지오넷",
     "url": "https://www.ut.ac.kr/"
   },
@@ -291,7 +291,7 @@
     "organization": "한국과학기술원",
     "project": "개교 50주년 기념사업 공모전 홈페이지 구축",
     "period": "2019",
-    "category": "대학교",
+    "category": "교육기관",
     "company": "지오넷",
     "url": "https://www.kaist.ac.kr/50/"
   },
@@ -307,7 +307,7 @@
     "organization": "한밭대학교",
     "project": "한밭대학교 홈페이지 통합 구축 사업",
     "period": "2019",
-    "category": "대학교",
+    "category": "교육기관",
     "company": "지오넷",
     "url": "https://www.hanbat.ac.kr/"
   },
@@ -339,7 +339,7 @@
     "organization": "GIST",
     "project": "GIST 통합 홈페이지 구축사업",
     "period": "2018",
-    "category": "대학교",
+    "category": "교육기관",
     "company": "지오넷",
     "url": "https://www.gist.ac.kr/"
   },
@@ -363,7 +363,7 @@
     "organization": "상지대학교",
     "project": "상지대학교 홈페이지 개발 용역",
     "period": "2018–2019",
-    "category": "대학교",
+    "category": "교육기관",
     "company": "지오넷",
     "url": "https://www.sangji.ac.kr/kor/index.do"
   },
@@ -403,7 +403,7 @@
     "organization": "건양대학교",
     "project": "프라임사업단 및 학부 홈페이지 구축 용역",
     "period": "2017–2018",
-    "category": "대학교",
+    "category": "교육기관",
     "company": "지오넷",
     "url": null
   },
@@ -411,7 +411,7 @@
     "organization": "세명대학교",
     "project": "세명대학교 모바일 홈페이지 구축사업",
     "period": "2017",
-    "category": "대학교",
+    "category": "교육기관",
     "company": "지오넷",
     "url": "https://www.semyung.ac.kr/kor.do"
   },
@@ -443,7 +443,7 @@
     "organization": "한국교통대학교",
     "project": "한국교통대학교 홈페이지 개편 및 통합구축",
     "period": "2016–2017",
-    "category": "대학교",
+    "category": "교육기관",
     "company": "지오넷",
     "url": "https://www.ut.ac.kr/"
   },
@@ -515,7 +515,7 @@
     "organization": "김천대학교",
     "project": "김천대학교 홈페이지 전면개편 용역",
     "period": "2015–2016",
-    "category": "대학교",
+    "category": "교육기관",
     "company": "지오넷",
     "url": "https://www.gimcheon.ac.kr/site/gimcheon/index.html"
   },
@@ -563,7 +563,7 @@
     "organization": "KAIST 경영대학",
     "project": "WCAG2.0기반 KAIST 경영대학 홈페이지 구축",
     "period": "2014",
-    "category": "대학교",
+    "category": "교육기관",
     "company": "지오넷",
     "url": "https://www.kaist.ac.kr/"
   },
@@ -595,7 +595,7 @@
     "organization": "천주교 성지",
     "project": "교황방문 천주교 성지 온라인 콘텐츠 보강사업",
     "period": "2014",
-    "category": "기타",
+    "category": "지자체",
     "company": "지오넷",
     "url": null
   },
@@ -603,7 +603,7 @@
     "organization": "괴산세계유기농산업엑스포",
     "project": "괴산세계유기농산업엑스포 공식홈페이지 구축",
     "period": "2014",
-    "category": "기타",
+    "category": "지자체",
     "company": "지오넷",
     "url": null
   },
@@ -627,7 +627,7 @@
     "organization": "충청남도",
     "project": "충남 전통시장 포털 홈페이지 구축",
     "period": "2014",
-    "category": "기타",
+    "category": "지자체",
     "company": "지오넷",
     "url": null
   },
@@ -675,7 +675,7 @@
     "organization": "한국기술교육대학교",
     "project": "한국기술교육대학교 홈페이지 재구축 용역",
     "period": "2013–2014",
-    "category": "대학교",
+    "category": "교육기관",
     "company": "지오넷",
     "url": "https://www.koreatech.ac.kr/"
   },
@@ -699,7 +699,7 @@
     "organization": "KAIST",
     "project": "WCAG 2.0기반 KAIST 홈페이지 구축사업",
     "period": "2013",
-    "category": "대학교",
+    "category": "교육기관",
     "company": "지오넷",
     "url": "https://www.kaist.ac.kr/"
   },
@@ -707,7 +707,7 @@
     "organization": "계룡문화예술의전당",
     "project": "계룡문화예술의전당 홈페이지 구축용역",
     "period": "2013",
-    "category": "기타",
+    "category": "지자체",
     "company": "지오넷",
     "url": "https://gyeryong.go.kr/ac/"
   },
@@ -723,7 +723,7 @@
     "organization": "금산군",
     "project": "금산산림문화타운 홈페이지 보강사업",
     "period": "2013",
-    "category": "기타",
+    "category": "지자체",
     "company": "지오넷",
     "url": null
   },
@@ -819,7 +819,7 @@
     "organization": "옥천군",
     "project": "스마트 옥천 어플리케이션 개발 용역",
     "period": "2011",
-    "category": "기타",
+    "category": "지자체",
     "company": "지오넷",
     "url": null
   },
@@ -835,7 +835,7 @@
     "organization": "좌구산 자연휴양림",
     "project": "좌구산 자연휴양림 및 율리휴양촌 홈페이지 구축용역",
     "period": "2010–2011",
-    "category": "기타",
+    "category": "지자체",
     "company": "지오넷",
     "url": "https://star.jp.go.kr/html/kr/index.html"
   },
@@ -859,7 +859,7 @@
     "organization": "충주 폴리텍IV대학",
     "project": "충주 폴리텍IV대학 홈페이지 구축",
     "period": "2009",
-    "category": "대학교",
+    "category": "교육기관",
     "company": "(주)이지소프트",
     "url": "https://www.kopo.ac.kr/chungju/index.do"
   },
@@ -891,7 +891,7 @@
     "organization": "한국디지털미디어고등학교",
     "project": "한국디지털미디어고등학교 홈페이지구축사업",
     "period": "2008",
-    "category": "기타",
+    "category": "교육기관",
     "company": "(주)이지소프트",
     "url": "https://dimigo-h.goeas.kr/dimigo-h/main.do"
   },
@@ -899,7 +899,7 @@
     "organization": "충청북도지역혁신협의회",
     "project": "충청북도지역혁신협의회 홈페이지 구축",
     "period": "2008",
-    "category": "기타",
+    "category": "지자체",
     "company": "(주)이지소프트",
     "url": null
   },
