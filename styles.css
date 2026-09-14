@@ -305,3 +305,8 @@ a.visit {
 @media (max-width: 560px) {
   .viz-stage { max-width: 320px; }
 }
+
+
+.bg-bgColor{background: #393b44;padding: 30px 0;}
+.bg-bgColor p{font-size: 1.5rem;font-weight: 400;margin: 0;}
+.text-white p{color: #fff;}
