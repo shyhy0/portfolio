@@ -1,8 +1,4 @@
-/*
-  Color / type values below are taken directly from the official
-  KRDS (대한민국 정부 디자인 시스템) design tokens:
-  https://github.com/KRDS-uiux/krds-uiux  (resources/css/token/krds_tokens.css)
-*/
+
 :root {
   /* KRDS primitive — primary (blue) */
   --primary-5:  #ecf2fe;
@@ -70,8 +66,6 @@ a:focus-visible, button:focus-visible, input:focus-visible, th:focus-visible {
   outline-offset: 1px;
 }
 
-/* clean header + GNB, in the spirit of data.newstapa.org's layout —
-   colors and type come from the KRDS tokens defined above */
 .site-header {
   position: sticky;
   top: 0;
@@ -148,7 +142,6 @@ h1 {
   max-width: 640px;
 }
 
-/* generic pill button, used for chips, copy-link and reset actions */
 .btn {
   font-family: inherit;
   border: 1px solid var(--border-interactive);
@@ -198,7 +191,7 @@ h1 {
 }
 #search::placeholder { color: var(--text-subtle); }
 .intro-tags { display: flex; flex-wrap: wrap; gap:2px;justify-content:center;margin-top:20px;}
-.chip { border-radius: 999px; padding:4px 12px; font-size: 1.3rem;opacity:0.5;}
+.chip { border-radius: 999px; padding:4px 12px; font-size: 1.3rem;opacity:0.7;}
 .chip.active { background: var(--primary-50); border-color: var(--primary-50); color: var(--gray-0);opacity:1; }
 
 /* table */
