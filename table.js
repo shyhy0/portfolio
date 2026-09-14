@@ -123,9 +123,6 @@ document.getElementById('cat-chips').addEventListener('click', (e) => {
   render();
 });
 
-document.getElementById('copy-link').addEventListener('click', (e) => {
-  copyToClipboard(location.href, e.currentTarget);
-});
 
 // 뒤로/앞으로 가기로 URL이 바뀌면 화면도 그 상태로 맞춘다.
 window.addEventListener('popstate', () => {
@@ -145,6 +142,6 @@ fetchCareerItems()
   })
   .catch(err => {
     document.getElementById('table-body').innerHTML =
-      '<tr><td colspan="5" class="empty-note">data.json을 불러오지 못했습니다. projects.html·table.js·shared.js·data.json이 같은 폴더에 있는지, http(s)로 서빙되고 있는지 확인해주세요 (file:// 로 더블클릭해서 열면 fetch가 차단됩니다. GitHub Pages에 올리면 정상 동작합니다).</td></tr>';
+      '<tr><td colspan="5" class="empty-note">data.json을 불러오지 못했습니다</td></tr>';
     console.error(err);
   });
