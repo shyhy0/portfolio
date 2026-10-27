@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>문혜영 · 프론트엔드 개발자 포트폴리오</title>
+<meta name="description" content="17년 경력 프론트엔드 개발자 · 퍼블리셔 문혜영의 이력서와 공공기관 프로젝트 이력">
+<link rel="icon" href="./favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+<link rel="manifest" href="./site.webmanifest">
+<meta name="application-name" content="문혜영 · 프론트엔드 개발자 포트폴리오">
+
+<!-- Genesis: General Sans(Fontshare) / DM Sans, JetBrains Mono(Google Fonts) + 한글 대체용 Pretendard -->
+<link rel="preconnect" href="https://api.fontshare.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=general-sans@700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=JetBrains+Mono&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="./styles.css">
+
+<!-- 첫 페인트 전에 테마 적용 (깜빡임 방지) -->
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem('portfolio-theme');
+      if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+<a class="skip-link" href="#view">본문 바로가기</a>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="#/">문혜영</a>
+    <nav class="nav-links" aria-label="주요 메뉴">
+      <a href="#/" data-route="/">이력서</a>
+      <a href="#/projects" data-route="/projects">프로젝트</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="다크 모드로 전환">
+        <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="view" class="view" tabindex="-1">
+  <div class="container"><p class="empty">불러오는 중입니다.</p></div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <span id="footerName">© 문혜영</span>
+    <span id="footerEmail">shyhy0@gmail.com</span>
+  </div>
+</footer>
+
+<noscript>
+  <p style="padding:24px;text-align:center">이 포트폴리오는 JavaScript가 필요합니다. JavaScript를 켜고 다시 열어 주세요.</p>
+</noscript>
+
+<script src="./app.js"></script>
+</body>
+</html>
