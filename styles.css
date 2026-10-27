@@ -218,6 +218,7 @@ button { font-family: inherit; }
   display: grid; grid-template-columns: 180px 1fr; gap: 24px;
   padding: 24px 0; border-bottom: 1px solid var(--border);
 }
+.career li:last-child{border-bottom:none;}
 .career .period { color: var(--text-2); font-size: 14px; padding-top: 4px; }
 .career h3 { font-size: 20px; margin-bottom: 8px; }
 .career p { color: var(--text-2);/* max-width: 64ch;*/ font-size: 15px; line-height: 1.7; }
